@@ -5,12 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>ZingZaDo</title>
+
+    <!--font-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
     <!-- Bootstrap -->
     <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="shamecss/fontello.css" rel="stylesheet">
-    
+    <link href="shamecss/main.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -26,30 +29,21 @@
   <!-- Fixed navbar -->
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
-        <!-- <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">ZingZaDo</a>
-        </div> -->
-        <div id="navbar" class="navbar-collapse collapse">
+        
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#"><i class="fa fa-circle"></i> Alerts</a></li>
-            <li><a href="#about"><i class="fa fa-question-circle large"></i>   Help</a></li>
+            <li class="active"><a href="#"><span class="hidden-xs">Alerts </span> <span class="badge">4</span> </a></li>
+            <li><a href="#about"><span class="hidden-xs">Help </span> <i class="fa fa-question-circle fa-lg"></i></a></li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> <i class="fa fa-plus-circle add"></i> Add <span class="caret"></span></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="hidden-xs">Add </span> <i class="fa fa-plus-circle add fa-lg"></i><span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <li><a href="#"><i class="fa fa-plus-circle add"></i> Zing</a></li>
                 <li><a href="#"><i class="fa fa-plus-circle add"></i> Collection</a></li>
                 
               </ul>
             </li>
-            <li><a href="#contact"><i class="icon icon-zzd"></i> Zings</a></li>
+            <li><a href="#contact"><span class="hidden-xs">Zings</span> <i class="fa icon-zzd fa-lg"></i></a></li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user add"></i> Heather <span class="caret"></span></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="hidden-xs">Heather</span> <i class="fa fa-user fa-lg"></i>  <span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <li><a href="#">Profile</a></li>
                 <li><a href="#">Recently Viewed</a></li>
@@ -59,15 +53,15 @@
             </li>
           </ul>
           
-        </div><!--/.nav-collapse -->
       </div>
     </nav>
 
     <div class="container">
 
       <!-- Main component for a primary marketing message or call to action -->
-      <div class="jumbotron">
-        <!--<h1>ZingZaDo</h1>-->
+      <div class="jumbotron text-center">
+        <h1><img src="img/zzd-logo.png"></h1>
+        <h5>Across an ocean or across town, find awesome things to do.</h5>
 
         
       </div>

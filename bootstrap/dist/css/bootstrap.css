@@ -3289,7 +3289,7 @@ html
 }
 body
 {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
     font-size: 14px;
     line-height: 1.42857143;
 
@@ -3751,7 +3751,7 @@ dd
 {
     margin-left: 0;
 }
-@media (min-width: 768px)
+@media (min-width: 480px)
 {
     .dl-horizontal dt
     {
@@ -6630,7 +6630,7 @@ tbody.collapse.in
 
     margin-bottom: 2px;
 }
-@media (min-width: 768px)
+@media (min-width: 480px)
 {
     .navbar-right .dropdown-menu
     {
@@ -7336,14 +7336,14 @@ select[multiple].input-group-sm > .input-group-btn > .btn
 
     border: 1px solid transparent;
 }
-@media (min-width: 768px)
+@media (min-width: 480px)
 {
     .navbar
     {
         border-radius: 4px;
     }
 }
-@media (min-width: 768px)
+@media (min-width: 480px)
 {
     .navbar-header
     {
@@ -7367,7 +7367,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn
 {
     overflow-y: auto;
 }
-@media (min-width: 768px)
+@media (min-width: 480px)
 {
     .navbar-collapse
     {
@@ -7418,7 +7418,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn
     margin-right: -15px;
     margin-left: -15px;
 }
-@media (min-width: 768px)
+@media (min-width: 480px)
 {
     .container > .navbar-header,
     .container-fluid > .navbar-header,
@@ -7435,7 +7435,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn
 
     border-width: 0 0 1px;
 }
-@media (min-width: 768px)
+@media (min-width: 480px)
 {
     .navbar-static-top
     {
@@ -7450,7 +7450,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn
     right: 0;
     left: 0;
 }
-@media (min-width: 768px)
+@media (min-width: 480px)
 {
     .navbar-fixed-top,
     .navbar-fixed-bottom
@@ -7491,7 +7491,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn
 {
     display: block;
 }
-@media (min-width: 768px)
+@media (min-width: 480px)
 {
     .navbar > .container .navbar-brand,
     .navbar > .container-fluid .navbar-brand
@@ -7532,7 +7532,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn
 {
     margin-top: 4px;
 }
-@media (min-width: 768px)
+@media (min-width: 480px)
 {
     .navbar-toggle
     {
@@ -7550,7 +7550,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn
     padding-top: 10px;
     padding-bottom: 10px;
 }
-@media (max-width: 767px)
+@media (max-width: 479px)
 {
     .navbar-nav .open .dropdown-menu
     {
@@ -7581,7 +7581,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn
         background-image: none;
     }
 }
-@media (min-width: 768px)
+@media (min-width: 480px)
 {
     .navbar-nav
     {
@@ -7683,7 +7683,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn
         top: 0;
     }
 }
-@media (max-width: 767px)
+@media (max-width: 479px)
 {
     .navbar-form .form-group
     {
@@ -7694,7 +7694,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn
         margin-bottom: 0;
     }
 }
-@media (min-width: 768px)
+@media (min-width: 480px)
 {
     .navbar-form
     {
@@ -7745,7 +7745,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn
     margin-top: 15px;
     margin-bottom: 15px;
 }
-@media (min-width: 768px)
+@media (min-width: 480px)
 {
     .navbar-text
     {
@@ -7755,7 +7755,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn
         margin-left: 15px;
     }
 }
-@media (min-width: 768px)
+@media (min-width: 480px)
 {
     .navbar-left
     {
@@ -7842,7 +7842,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn
     color: #555;
     background-color: #e7e7e7;
 }
-@media (max-width: 767px)
+@media (max-width: 479px)
 {
     .navbar-default .navbar-nav .open .dropdown-menu > li > a
     {
@@ -7961,7 +7961,7 @@ fieldset[disabled] .navbar-default .btn-link:focus
     color: #fff;
     background-color: #080808;
 }
-@media (max-width: 767px)
+@media (max-width: 479px)
 {
     .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header
     {
@@ -8377,7 +8377,7 @@ a.badge:focus
     padding-bottom: 30px;
 
     color: inherit;
-    background-color: #eee;
+    background-color: #fff;
 }
 .jumbotron h1,
 .jumbotron .h1
@@ -8393,7 +8393,7 @@ a.badge:focus
 }
 .jumbotron > hr
 {
-    border-top-color: #d5d5d5;
+    border-top-color: #e6e6e6;
 }
 .container .jumbotron,
 .container-fluid .jumbotron
@@ -9676,7 +9676,7 @@ button.close
 }
 .tooltip
 {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
     font-size: 12px;
     font-weight: normal;
     font-style: normal;
@@ -9832,7 +9832,7 @@ button.close
 }
 .popover
 {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Roboto', Helvetica, Arial, sans-serif;
     font-size: 14px;
     font-weight: normal;
     font-style: normal;
