@@ -41,7 +41,7 @@
                 
               </ul>
             </li>
-            <li><a href="#contact"><span class="hidden-xs">Zings</span> <i class="fa icon-zzd fa-lg"></i></a></li>
+            <li><a href="#contact"><span class="hidden-xs">Zings</span> <i class="fa icon-zzd icon-lg"></i></a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="hidden-xs">Heather</span> <i class="fa fa-user fa-lg"></i>  <span class="caret"></span></a>
               <ul class="dropdown-menu">
@@ -60,12 +60,46 @@
 
       <!-- Main component for a primary marketing message or call to action -->
       <div class="jumbotron text-center">
-        <h1><img src="img/zzd-logo.png"></h1>
-        <h5>Across an ocean or across town, find awesome things to do.</h5>
+        <h1 style="padding-top:20px;"><img src="img/zzd-logo.png"></h1>
+        <h4>Across an ocean or across town, find awesome things to do.</h4>
 
-        
+        <form class="form-inline">
+		  <div class="form-group">
+		    <label class="sr-only" for="do">What do you want to do?</label>
+		    <input type="email" class="form-control" id="do" placeholder="What do you want to do?">
+		  </div>
+		  <div class="form-group">
+		    <label class="sr-only" for="where">Where?</label>
+		    <input type="password" class="form-control" id="where" placeholder="Where?">
+		  </div>
+		  <div class="form-group">
+		    <label class="sr-only" for="when">When?</label>
+		    <input type="password" class="form-control" id="when" placeholder="When?">
+		  </div>
+		  
+		  <button type="submit" class="btn btn-info">Search</button>
+		</form>
       </div>
-
+      <div class="row">
+      <div class="col-xs-2">
+	      <button type="submit" class="btn btn-romantic btn-block"><i class="fa fa-heart"></i> <span class="hidden-lg hidden-md"><br></span>Romantic</button>
+	  </div>
+	  <div class="col-xs-2">
+	      <button type="submit" class="btn btn-outdoors btn-block"><i class="fa fa-tree"></i> <span class="hidden-lg hidden-md"><br></span>Outdoors</button>
+	      </div>
+	  <div class="col-xs-2">
+	      <button type="submit" class="btn btn-venue btn-block"><i class="fa fa-bookmark"></i> <span class="hidden-lg hidden-md"><br></span>Venue</button>
+	      </div>
+	  <div class="col-xs-2">
+	      <button type="submit" class="btn btn-family btn-block"><i class="fa fa-group"></i> <span class="hidden-lg hidden-md"><br></span>Family</button>
+	      </div>
+	  <div class="col-xs-2">
+	      <button type="submit" class="btn btn-food-drink btn-block"><i class="fa fa-coffee"></i> <span class="hidden-lg hidden-md"><br></span>Food & Drink</button>
+	      </div>
+	  <div class="col-xs-2">
+	      <button type="submit" class="btn btn-free btn-block"><i class="fa fa-usd"></i> <span class="hidden-lg hidden-md"><br></span>Free!</button>
+	      </div>
+      </div>
     </div> <!-- /container -->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

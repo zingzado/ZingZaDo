@@ -20,6 +20,14 @@
 @brand-warning:         #ffab00;
 @brand-danger:          @brand-primary;
 
+@romantic:          @brand-primary;
+@outdoor:          @brand-success;
+@venue:          @brand-info;
+@family:          #AA00FF;
+@food-drink:          #FF6D00;
+@free:          @brand-warning;
+
+
 
 //== Scaffolding
 //
@@ -102,9 +110,9 @@
 @line-height-large:         1.3333333; // extra decimals for Win 8.1 Chrome
 @line-height-small:         1.5;
 
-@border-radius-base:        4px;
-@border-radius-large:       6px;
-@border-radius-small:       3px;
+@border-radius-base:        1px;
+@border-radius-large:       2px;
+@border-radius-small:       .5px;
 
 //** Global color for active items (e.g., navs or dropdowns).
 @component-active-color:    #fff;
@@ -167,6 +175,14 @@
 @btn-danger-color:               #fff;
 @btn-danger-bg:                  @brand-danger;
 @btn-danger-border:              darken(@btn-danger-bg, 5%);
+
+@btn-family-color:              #fff;
+@btn-family-bg:                 @family;
+@btn-family-border:             darken(@family, 5%);
+
+@btn-food-drink-color:              #fff;
+@btn-food-drink-bg:                 @food-drink;
+@btn-food-drink-border:             darken(@food-drink, 5%);
 
 @btn-link-disabled-color:        @gray-light;
 
@@ -282,6 +298,14 @@
 //
 //## Define the breakpoints at which your layout will change, adapting to different screen sizes.
 
+// Extra Extra small screen / phone
+//** Deprecated `@screen-xs` as of v3.0.1
+@screen-xxs:                  320px;
+//** Deprecated `@screen-xs-min` as of v3.2.0
+@screen-xxs-min:              @screen-xxs;
+//** Deprecated `@screen-phone` as of v3.0.1
+@screen-v-phone:               @screen-xxs-min;
+
 // Extra small screen / phone
 //** Deprecated `@screen-xs` as of v3.0.1
 @screen-xs:                  480px;
@@ -327,7 +351,7 @@
 @grid-gutter-width:         30px;
 // Navbar collapse
 //** Point at which the navbar becomes uncollapsed.
-@grid-float-breakpoint:     @screen-xs-min;
+@grid-float-breakpoint:     @screen-xxs;
 //** Point at which the navbar begins collapsing.
 @grid-float-breakpoint-max: (@grid-float-breakpoint - 1);
 
