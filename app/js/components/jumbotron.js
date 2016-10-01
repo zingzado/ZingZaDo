@@ -42,7 +42,7 @@ var Banner = React.createClass({
 	  <div className="container">
 		  <div>   
 			
-			<SearchBar />
+			
 		  </div>
 	  </div>
     );
