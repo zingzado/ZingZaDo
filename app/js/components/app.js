@@ -4,16 +4,20 @@ var ZingCollectionRow = React.createClass({
     }
 });
 
-
+var ZingCategories = React.createClass({
+	render: function(){
+		<div>{this.props.categories}</div>	
+	}
+});
 
 var ZingRow = React.createClass({
-//    getInitialState: function(){
-//		return{};
-//		},
-	render: function(){
-		//var categoryList = this.props.categories.map(function(category) {
-//            return <div className="station">{category.categoryName}</div>;
-//        });
+	render: function(){	
+	//var categoriesList = [];
+//        var lastCategory = null;
+//        this.props.zings.forEach(function(zing){
+//            categoriesList.push(<ZingCategories category={categoryName} key={zing.categories.categoryName} />);
+//            lastCategory = zing.categories.categoryName;
+//        });	
         return (
                 <div className="col-md-12">
 					<a className="thumbnail">
@@ -23,7 +27,7 @@ var ZingRow = React.createClass({
 						<p><i className="fa fa-calendar"></i> {this.props.zing.startDate} - {this.props.zing.endDate}</p>
 						<p><i className="fa fa-clock-o"></i> {this.props.zing.startTime} - {this.props.zing.endTime}</p>
 						<p><i className="fa fa-map-marker"></i> {this.props.zing.location}</p>
-						<p>{this.props.zing.description}</p>
+						
 						</div>
 					</a>					
 				</div>           
@@ -56,7 +60,7 @@ var FilterableZingTable = React.createClass({
   render: function() {
     return (
       <div>
-        <ZingTable zings={this.props.zings} />		
+        <ZingTable zings={this.props.zings} />			
       </div>
 	  
     );
